@@ -3,10 +3,10 @@
 
     <NavBar/>
 
-    <Carousel/>
+    <Carousel id="carousel"/>
 
     <br/>
-    <b-container>
+    <b-container id="cards">
       <el-divider><i class="el-icon-mobile-phone"></i></el-divider>
       <b-row>
         <b-col>
@@ -25,13 +25,13 @@
     </b-container>
 
     <br/>
-    <b-container>
+    <b-container id="members">
       <el-divider><i class="el-icon-mobile-phone"></i></el-divider>
       <Table/>
     </b-container>
 
     <br/>
-    <b-container>
+    <b-container id="progress">
       <el-divider><i class="el-icon-mobile-phone"></i></el-divider>
       <Progress/>
     </b-container>
