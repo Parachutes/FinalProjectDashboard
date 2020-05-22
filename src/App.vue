@@ -1,17 +1,69 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+
+    <NavBar/>
+
+    <Carousel/>
+
+    <br/>
+    <b-container>
+      <el-divider><i class="el-icon-mobile-phone"></i></el-divider>
+      <b-row>
+        <b-col>
+          <Card/>
+        </b-col>
+        <b-col>
+          <Card/>
+        </b-col>
+        <b-col>
+          <Card/>
+        </b-col>
+        <b-col>
+          <Card/>
+        </b-col>
+      </b-row>
+    </b-container>
+
+    <br/>
+    <b-container>
+      <el-divider><i class="el-icon-mobile-phone"></i></el-divider>
+      <Table/>
+    </b-container>
+
+    <br/>
+    <b-container>
+      <el-divider><i class="el-icon-mobile-phone"></i></el-divider>
+      <Progress/>
+    </b-container>
+
+    <br/>
+
+    <b-container>
+      <el-divider>end</el-divider>
+    </b-container>
+    <br/>
+
   </div>
+<!--  <div id="app">-->
+<!--  </div>-->
 </template>
 
+
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import NavBar from "@/components/NavBar";
+import Carousel from "@/components/Carousel";
+import Table from "@/components/Table";
+import Progress from "@/components/Progress";
+import Card from "@/components/Card";
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Card,
+    Progress,
+    Table,
+    Carousel,
+    NavBar
   }
 }
 </script>
