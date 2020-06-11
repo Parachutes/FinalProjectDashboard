@@ -7,32 +7,26 @@
 
     <br/>
     <b-container id="cards">
-      <el-divider><i class="el-icon-mobile-phone"></i></el-divider>
+      <el-divider>functions</el-divider>
+
       <b-row>
-        <b-col>
-          <Card/>
-        </b-col>
-        <b-col>
-          <Card/>
-        </b-col>
-        <b-col>
-          <Card/>
-        </b-col>
-        <b-col>
-          <Card/>
+        <b-col v-for="card in cardsInfo" :key="card.url">
+          <Card :img-url="card.url" :function-info="card.info"/>
         </b-col>
       </b-row>
+
+
     </b-container>
 
     <br/>
     <b-container id="members">
-      <el-divider><i class="el-icon-mobile-phone"></i></el-divider>
+      <el-divider>members</el-divider>
       <Table/>
     </b-container>
 
     <br/>
     <b-container id="progress">
-      <el-divider><i class="el-icon-mobile-phone"></i></el-divider>
+      <el-divider>progress</el-divider>
       <Progress/>
     </b-container>
 
@@ -44,8 +38,7 @@
     <br/>
 
   </div>
-<!--  <div id="app">-->
-<!--  </div>-->
+
 </template>
 
 
@@ -64,6 +57,16 @@ export default {
     Table,
     Carousel,
     NavBar
+  },
+  data() {
+    return {
+      cardsInfo: [
+        {url:'function1', info:"some information about function 1"},
+        {url:'function2', info:"some information about function 2"},
+        {url:'function3', info:"some information about function 3"},
+        {url:'function4', info:"some information about function 4"},
+      ]
+    };
   }
 }
 </script>
