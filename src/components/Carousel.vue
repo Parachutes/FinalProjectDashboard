@@ -18,7 +18,7 @@
                             class="d-block img-fluid w-100"
                             width="1024"
                             height="480"
-                            src="../assets/wallpaper1.jpeg"
+                            src="../assets/website_00.jpg"
                             alt="image slot"
                     >
                 </template>
@@ -30,7 +30,7 @@
                             class="d-block img-fluid w-100"
                             width="1024"
                             height="480"
-                            src="../assets/wallpaper2.jpeg"
+                            src="../assets/website_01.jpg"
                             alt="image slot"
                     >
                 </template>

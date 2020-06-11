@@ -7,7 +7,7 @@
 
     <br/>
     <b-container id="cards">
-      <el-divider>functions</el-divider>
+      <el-divider><i class="el-icon-setting"></i>  functions</el-divider>
 
       <b-row>
         <b-col v-for="card in cardsInfo" :key="card.url">
@@ -20,20 +20,20 @@
 
     <br/>
     <b-container id="members">
-      <el-divider>members</el-divider>
+      <el-divider><i class="el-icon-user"></i> members</el-divider>
       <Table/>
     </b-container>
 
     <br/>
     <b-container id="progress">
-      <el-divider>progress</el-divider>
+      <el-divider><i class="el-icon-document-checked"></i> progress</el-divider>
       <Progress/>
     </b-container>
 
     <br/>
 
     <b-container>
-      <el-divider>end</el-divider>
+      <el-divider>Copyright © 2020 <i class="el-icon-sugar"></i> All rights reserved.</el-divider>
     </b-container>
     <br/>
 
