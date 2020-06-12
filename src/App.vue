@@ -1,6 +1,10 @@
 <template>
   <div>
 
+    <vue-headful
+            title="HKU Helper"
+    />
+
     <NavBar/>
 
     <Carousel id="carousel"/>
@@ -52,6 +56,7 @@ import Progress from "@/components/Progress";
 import Card from "@/components/Card";
 
 export default {
+  title: 'HKU',
   name: 'App',
   components: {
     Card,
@@ -64,9 +69,9 @@ export default {
     return {
       cardsInfo: [
         {url:'function1', info:"View personal class timetable of different time dimensions."},
-        {url:'function2', info:"View grades clearly and instantly with the help of user-friendly layout and prompt."},
-        {url:'function3', info:"Grasp course information in real time and won’t miss every moment."},
-        {url:'function4', info:"Provide more convenient campus services by integrating different booking websites."},
+        {url:'function2', info:"Grasp course information in real time and you won’t miss any lecture."},
+        {url:'function3', info:"Check grades clearly and instantly with the help of user-friendly layout and prompt."},
+        {url:'function4', info:"Provide a better facilities booking system by integrating different booking websites."},
       ]
     };
   }

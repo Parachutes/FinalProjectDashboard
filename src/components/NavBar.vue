@@ -2,7 +2,7 @@
     <b-navbar toggleable="lg" type="dark" variant="dark" fixed="top" sticky=true>
         <b-navbar-brand href="/">
             <el-row type="flex">
-                <img src="../assets/dummy.png" class="hkuIcon">
+                <img src="../assets/logoHKU.png" class="hkuIcon">
                 <h3>HKU Helper</h3>
             </el-row>
         </b-navbar-brand>
