@@ -1,8 +1,8 @@
 <template>
-    <b-navbar toggleable="lg" type="dark" variant="dark" fixed="top" sticky=true>
+    <b-navbar fixed="top" sticky=true toggleable="lg" type="dark" variant="dark">
         <b-navbar-brand href="/">
             <el-row type="flex">
-                <img src="../assets/logoHKU.png" class="hkuIcon">
+                <img class="hkuIcon" src="../assets/logoHKU.png">
                 <h3>HKU Helper</h3>
             </el-row>
         </b-navbar-brand>

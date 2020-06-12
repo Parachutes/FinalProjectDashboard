@@ -1,25 +1,25 @@
 <template>
     <div>
         <b-carousel
-                id="carousel-1"
-                v-model="slide"
                 :interval="3000"
-                controls
-                indicators
-                img-width="1024"
-                img-height="480"
-                @sliding-start="onSlideStart"
                 @sliding-end="onSlideEnd"
+                @sliding-start="onSlideStart"
+                controls
+                id="carousel-1"
+                img-height="480"
+                img-width="1024"
+                indicators
+                v-model="slide"
         >
 
             <b-carousel-slide>
                 <template v-slot:img>
                     <img
+                            alt="image slot"
                             class="d-block img-fluid w-100"
-                            width="1024"
                             height="480"
                             src="../assets/website_00.jpg"
-                            alt="image slot"
+                            width="1024"
                     >
                 </template>
             </b-carousel-slide>
@@ -27,11 +27,11 @@
             <b-carousel-slide>
                 <template v-slot:img>
                     <img
+                            alt="image slot"
                             class="d-block img-fluid w-100"
-                            width="1024"
                             height="480"
                             src="../assets/website_01.jpg"
-                            alt="image slot"
+                            width="1024"
                     >
                 </template>
             </b-carousel-slide>
