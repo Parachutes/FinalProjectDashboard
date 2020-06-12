@@ -8,7 +8,7 @@
     <br/>
     <b-container id="cards">
       <el-divider><i class="el-icon-setting"></i>  functions</el-divider>
-
+      <br/>
       <b-row>
         <b-col v-for="card in cardsInfo" :key="card.url">
           <Card :img-url="card.url" :function-info="card.info"/>
@@ -21,12 +21,14 @@
     <br/>
     <b-container id="members">
       <el-divider><i class="el-icon-user"></i> members</el-divider>
+      <br/>
       <Table/>
     </b-container>
 
     <br/>
     <b-container id="progress">
       <el-divider><i class="el-icon-document-checked"></i> progress</el-divider>
+      <br/>
       <Progress/>
     </b-container>
 
