@@ -1,9 +1,9 @@
 <template>
     <el-card :body-style="{ padding: '0px' }" shadow="hover">
         <img :src="require('../assets/'+imgUrl+'.jpeg')" class="image" />
-        <div style="padding: 14px;">
+        <div style="padding: 14px;height: 120px">
             <div class="bottom clearfix">
-                <time class="time">{{ functionInfo }}</time>
+                <h6><i class="el-icon-magic-stick"></i>  {{ functionInfo }}</h6>
             </div>
         </div>
     </el-card>

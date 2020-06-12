@@ -63,10 +63,10 @@ export default {
   data() {
     return {
       cardsInfo: [
-        {url:'function1', info:"some information about function 1"},
-        {url:'function2', info:"some information about function 2"},
-        {url:'function3', info:"some information about function 3"},
-        {url:'function4', info:"some information about function 4"},
+        {url:'function1', info:"View personal class timetable of different time dimensions."},
+        {url:'function2', info:"View grades clearly and instantly with the help of user-friendly layout and prompt."},
+        {url:'function3', info:"Grasp course information in real time and won’t miss every moment."},
+        {url:'function4', info:"Provide more convenient campus services by integrating different booking websites."},
       ]
     };
   }
